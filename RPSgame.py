@@ -29,8 +29,8 @@ while Best_of_five <= 4:
         computer = "Scissors"
     print(computer)
     # This section determines what results we get from the input. If the input from the player and computer are the same its a draw.
-    # The "Outcomes" dictionary holds the possible winning combinations for the player. What is left over are the losing combinations for the player.
-    # Points are awarded to the player that wins and through-out the loop a running tally is kept. The current scores are also printed.
+    # The "Outcomes" dictionary holds the possible winning combinations for the player. What is left over will be losing combinations for the player.
+    # Points are awarded to who wins anda running tally is kept. The current scores are also printed.
     if player == computer:
         print("\nTie \nComputer: " + str(y) + " Player: " + str(x))
     elif Outcomes.get(player) == computer:
